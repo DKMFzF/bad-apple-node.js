@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+// конфиг берётся из .env файла
 module.exports = {
   FRAME_RATE: parseInt(process.env.FRAME_RATE) || 143,
   VIEWPORT_WIDTH: parseInt(process.env.VIEWPORT_WIDTH) || 200,
