@@ -1,7 +1,7 @@
 <h1 align="center">Console Bad-Apple in Node.js</h1>
 
 <div align="center">
-  <img src="./app_sreen.png" alt="app screen">
+  <img src="./screen/app_sreen.png" alt="app screen">
 </div>
 
 ## Installation and launch
