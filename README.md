@@ -1,6 +1,8 @@
 <h1 align="center">Console Bad-Apple in Node.js</h1>
 
-![app-screen](./frames/)
+<div align="center">
+  <img src="./app_sreen.png" alt="app screen">
+</div>
 
 **Cloning the slokaln repository project**
 ```Bash
