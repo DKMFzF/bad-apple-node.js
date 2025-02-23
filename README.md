@@ -40,6 +40,17 @@ or
 yarn start
 ```
 
+## Config .env
+```
+FRAME_RATE=143 # optimal value
+VIEWPORT_WIDTH=80
+VIEWPORT_HEIGHT=60
+ALPHABET=variant4 # or variant1 || variant2 || variant3
+FILE_FORMAT=png # or jpeg || jpg
+FRAME_DIR=./frames
+SOUND_FILE=./sound.mp3
+```
+
 ## Use libs in a project
 
 - [ascii-art](https://www.npmjs.com/package/ascii-art)
