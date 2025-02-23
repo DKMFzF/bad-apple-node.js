@@ -19,7 +19,7 @@ const loadFrames = async () => {
     const files = await fs.readdir(FRAME_DIR);
     frames = files.filter(file => file.endsWith(FILE_FORMAT)).sort();
     if (frames.length === 0) throw new Error("Фреймы не найдены!");
-    console.log(`Загружено ${frames.length} кадров.`);
+    console.log(`[LOG]: фреймы загруэенны: ${frames.length}`);
   } catch (error) {
     console.error("Ошибка загрузки кадров:", error);
     process.exit(1);
