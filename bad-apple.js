@@ -36,6 +36,6 @@ const start = (width, height, alphabet) => {
 };
 
 player.play(SOUND_FILE, (err) => {
-  if (err) console.error("ошибка в звуке:", err);
+  if (err) throw new Error("ошибка в звуке:", err);
   start(VIEWPORT_WIDTH, VIEWPORT_HEIGHT, ALPHABET);
 });
