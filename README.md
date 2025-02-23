@@ -1,8 +1,6 @@
 <h1 align="center">Console Bad-Apple in Node.js</h1>
 
-<div align="center">
-  <img src="./screen/app_sreen.png" alt="app screen">
-</div>
+https://github.com/user-attachments/assets/29cc55cc-6e4f-4780-89c3-5805ee305a1a
 
 ## Installation and launch
 **Cloning the slokaln repository project**
