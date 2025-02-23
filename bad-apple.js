@@ -1,9 +1,11 @@
 const { loadFrames, showFrame } = require("./modules/frames");
 const playSound = require("./modules/player");
 
-// Стартуем. Я СКАЗАЛ СТАРТУЕМ!
+// Делаем Бада-Бумчик
 (async () => {
-  await loadFrames();
-  await playSound();
+  await Promise.all([
+    loadFrames(), 
+    playSound()
+  ]);
   showFrame();
 })();

@@ -2,7 +2,7 @@ require("dotenv").config();
 
 // конфиг берётся из .env файла
 module.exports = {
-  FRAME_RATE: parseInt(process.env.FRAME_RATE) || 142,
+  FRAME_RATE: parseInt(process.env.FRAME_RATE) || 200,
   VIEWPORT_WIDTH: parseInt(process.env.VIEWPORT_WIDTH) || 80,
   VIEWPORT_HEIGHT: parseInt(process.env.VIEWPORT_HEIGHT) || 60,
   ALPHABET: process.env.ALPHABET || "variant4",
