@@ -4,6 +4,7 @@
   <img src="./app_sreen.png" alt="app screen">
 </div>
 
+## Installation and launch
 **Cloning the slokaln repository project**
 ```Bash
 git clone https://github.com/DKMFzF/bad-apple-node.js.git
@@ -38,3 +39,8 @@ or
 ```
 yarn start
 ```
+
+## Use libs in a project
+
+- [ascii-art](https://www.npmjs.com/package/ascii-art)
+- [play-sound](https://www.npmjs.com/package/play-sound)
