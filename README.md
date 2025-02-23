@@ -1,6 +1,10 @@
 <h1 align="center">Console Bad-Apple in Node.js</h1>
 
-https://github.com/user-attachments/assets/29cc55cc-6e4f-4780-89c3-5805ee305a1a
+
+
+https://github.com/user-attachments/assets/66232358-75f5-4831-90c1-1f77f5ee9e31
+
+
 
 ## Installation and launch
 **Cloning the slokaln repository project**
