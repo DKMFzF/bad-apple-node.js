@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "bad-apple.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bad-apple.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ascii-art": "^2.8.5"
+    "ascii-art": "^2.8.5",
+    "play-sound": "^1.1.6"
   }
 }
