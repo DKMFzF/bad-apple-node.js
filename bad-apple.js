@@ -1,7 +1,7 @@
 const { loadFrames, showFrame } = require("./modules/frames");
 const playSound = require("./modules/player");
 
-// запуск программы
+// Стартуем. Я СКАЗАЛ СТАРТУЕМ!
 (async () => {
   await loadFrames();
   await playSound();
