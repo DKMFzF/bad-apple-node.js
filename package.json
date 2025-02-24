@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "bad-apple.js",
   "scripts": {
-    "start": "node bad-apple.js"
+    "lint": "eslint --ext .js,.ts ./src",
+    "lint:fix": "npm run lint -- --fix",
+    "clean": "rm -rf dist",
+    "build": "tsc && node src/vendor/copyStatic.js",
+    "start": "node dist/bad-apple.js",
+    "dev": "npm run build && npm run start"
   },
   "author": "",
   "license": "ISC",
@@ -11,6 +16,15 @@
   "dependencies": {
     "ascii-art": "^2.8.5",
     "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0",
     "play-sound": "^1.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "typescript": "^5.7.3"
   }
 }
