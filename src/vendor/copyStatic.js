@@ -11,15 +11,14 @@ const LOG_ERROR_FRAMES = '[LOG]: "Frames folder not found." status ERROR';
 const LOG_SUCCESS_SOUND = '[LOG]: "Sound file copied to dist." status OK';
 const LOG_ERROR_SOUND = '[LOG]: "Sound file not found." status ERROR';
 
+// функция копирования статики (фреймы и звук)
 const copyFiles = async () => {
   try {
-    // Копируем кадры
     if (fs.existsSync(SRC_FRAMES)) {
       await fs.copy(SRC_FRAMES, DEST_FRAMES);
       console.log(LOG_SUCCESS_FRAMES);
     } else console.warn(LOG_ERROR_FRAMES);
 
-    // Копируем звук
     if (fs.existsSync(SRC_SOUND)) {
       await fs.copy(SRC_SOUND, DEST_SOUND);
       console.log(LOG_SUCCESS_SOUND);

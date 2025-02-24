@@ -3,7 +3,7 @@ import { IFrameProvider } from "../modules/FrameLoader";
 import { IRenderable } from "../modules/FrameRenderer";
 import { IPlayable } from "../modules/SoundPlayer";
 
-// коскад для приложения
+// коскад над приложением
 export class Application {
   constructor(
     private readonly frameProvider: IFrameProvider,

@@ -22,8 +22,4 @@ export class SoundPlayer implements IPlayable {
       });
     });
   }
-
-  private loadSound() {
-    
-  }
 }

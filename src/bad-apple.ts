@@ -12,6 +12,7 @@ import {
   VIEWPORT_WIDTH
 } from "./utils/config";
 
+// start app
 (async () => {
   const frameProvider = new FrameLoader(FRAME_DIR, FILE_FORMAT);
   const frames = await frameProvider.loadFrames();

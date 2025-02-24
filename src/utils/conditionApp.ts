@@ -1,3 +1,4 @@
+// все ошибки
 export enum EnumError {
   start = "[ERROR]: error loading data ",
   loadSound = "[ERROR]: error in loads sound",
@@ -6,6 +7,7 @@ export enum EnumError {
   generationFrame = "[ERROR]: error generation frame",
 }
 
+// все логи
 export enum EnumLog {
   staticFrames = "[LOG]: static frames:",
   staticSound = "[LOG]: static sound:",
