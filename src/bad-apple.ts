@@ -16,13 +16,7 @@ import {
 (async () => {
   const frameProvider = new FrameLoader(FRAME_DIR, FILE_FORMAT);
   const frames = await frameProvider.loadFrames();
-  const frameRenderer = new FrameRenderer(
-    frames,
-    VIEWPORT_WIDTH,
-    VIEWPORT_HEIGHT,
-    ALPHABET,
-    FRAME_RATE
-  );
+  const frameRenderer = new FrameRenderer(frames, VIEWPORT_WIDTH, VIEWPORT_HEIGHT, ALPHABET, FRAME_RATE);
   const soundPlayer = new SoundPlayer(SOUND_FILE);
   const app = new Application(frameProvider, frameRenderer, soundPlayer);
   
